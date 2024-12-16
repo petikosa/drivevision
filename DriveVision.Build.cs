@@ -9,6 +9,7 @@ public class DriveVision : ModuleRules
 		PrivateDependencyModuleNames.AddRange(new string[] { "OpenCVHelper", "OpenCV" });
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "ChaosVehicles", "PhysicsCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", 
+			"EnhancedInput", "ChaosVehicles", "PhysicsCore", "RHI", "RenderCore", "UMG" });
 	}
 }
